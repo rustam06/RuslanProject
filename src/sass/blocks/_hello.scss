@@ -1,0 +1,67 @@
+.hello {
+	height: 410px;
+	background: url(../img/HelloImg.png) center/cover no-repeat;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 43px;
+	position: relative;
+
+	&::after {
+		content: '';
+		background: url(../../img/RuslanHello.png) center/cover no-repeat;
+		width: 475px;
+		height: 400px;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+
+	&__leftSide {
+		&-descr {
+			margin-bottom: 22px;
+
+			p {
+				margin-bottom: 0;
+			}
+
+			p:nth-child(1) {
+				font-size: 32px;
+				font-weight: 300;
+			}
+
+			p:nth-child(2) {
+				color: #2b2a2c;
+				font-weight: 700;
+				font-size: 45px;
+				line-height: 60px;
+			}
+
+			p:last-child {
+				color: #6a696b;
+				font-size: 18px;
+				font-weight: 400;
+			}
+		}
+
+		&-social {
+			margin-bottom: 40px;
+
+			a {
+				margin-right: 8px;
+				text-decoration: none;
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				img {
+					width: 40px;
+					height: 40px;
+				}
+			}
+
+
+		}
+	}
+}

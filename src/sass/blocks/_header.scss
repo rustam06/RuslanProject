@@ -1,5 +1,65 @@
-.header__logo-img {
-	background: #2b2a2c url(../img/RuslanMain-min.jpg) center/cover no-repeat;
-	width: 100px;
-	height: 100px;
+header {
+	margin: 18px 0 33px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.header__logo {
+		width: 203px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		text-align: left;
+
+		&-img {
+			display: block;
+			background: #2b2a2c url(../img/RuslanMain-min.jpg) center/cover no-repeat;
+			width: 100px;
+			height: 73px;
+			border-radius: 50%;
+			margin-right: 10px;
+		}
+
+		&-descr {
+			color: #2b2a2c;
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 20px;
+
+			span {
+				color: #6a696b;
+				font-size: 12px;
+				font-weight: 400;
+			}
+		}
+	}
+
+	.header__nav {
+		display: flex;
+
+		ul {
+			list-style: none;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 14px;
+			font-weight: 700;
+			text-transform: uppercase;
+			margin: 0;
+			padding: 0;
+
+			li {
+				margin-right: 30px;
+
+				a {
+					text-decoration: none;
+					color: #2b2a2c;
+
+					&:hover {
+						border-bottom: 3px solid black;
+					}
+				}
+			}
+		}
+	}
 }
