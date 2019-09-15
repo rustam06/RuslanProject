@@ -1,0 +1,43 @@
+.aboutMe {
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-img {
+            margin-right: 60px;
+
+            img {
+                width: 560px;
+                height: 600px;
+                border-radius: 10px 10px;
+            }
+        }
+
+        &-descr {
+            h2 {
+                color: #2b2a2c;
+                font-size: 45px;
+                font-weight: 700;
+                line-height: 30px;
+            }
+
+            span {
+                display: block;
+                color: #dedede;
+                font-size: 92px;
+                font-weight: 700;
+                line-height: 90px;
+                margin-bottom: 30px;
+            }
+
+            p {
+                color: #717072;
+                font-size: 12px;
+                font-weight: 300;
+                line-height: 24px;
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
