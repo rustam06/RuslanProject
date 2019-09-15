@@ -21,6 +21,8 @@
 	}
 }
 
+
+
 .myWork__moreWork {
 	width: 189px;
 	height: 39px;
@@ -58,5 +60,16 @@
 				@extend %button_hover
 			}
 		}
+	}
+}
+
+.footer__nav-btn {
+	background-color: #2b2a2c;
+	color: #8d8d8e;
+	border: 1px solid #8d8d8e;
+
+	&:hover {
+		box-shadow: none;
+		background-color: #8d8d8e;
 	}
 }
