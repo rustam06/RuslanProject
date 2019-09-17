@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:200i,300,400,400i,700&display=swap&subset=cyrillic-ext"
+        rel="stylesheet">
+    <title>My Works</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header__logo">
+                <a href="#" class="header__logo-img"></a>
+                <div class="header__logo-descr">Ruslan Geliskhanov<br><span>Logo Designer</span></div>
+            </div>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="index.html">Main</a></li>
+                    <li><a href="MyWorks.html" target="_blank">WORK</a></li>
+                    <li><a href="index.html#aboutMe">ABOUT ME</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+                <button class="header__nav-btn button">HIRE ME</button>
+            </nav>
+        </header>
+
+        <section class="myWork">
+            <div class="myWork__title"><a href="#">My Works</a></div>
+            <div class="myWork__items">
+                <div class="myWork__item">
+                    <div class="myWork__item-img"><a href="img/logos/1.png" target="_blank"><img src="img/logos/1.png"
+                                alt="img" class="img"></a></div>
+                    <div class="myWork__item-descr">
+                        <p>logotype</p>
+                        <h2>S/Electric</h2>
+                    </div>
+                </div>
+                <div class="myWork__item">
+                    <div class="myWork__item-img"><a href="img/logos/2.png" target="_blank"><img src="img/logos/2.png"
+                                alt="img" class="img"></a></div>
+                    <div class="myWork__item-descr">
+                        <p>logotype</p>
+                        <h2>VM/MV/Heart logomark</h2>
+                    </div>
+                </div>
+                <div class="myWork__item">
+                    <div class="myWork__item-img"><a href="img/logos/3.png" target="_blank"><img src="img/logos/3.png"
+                                alt="img" class="img"></a></div>
+                    <div class="myWork__item-descr">
+                        <p>logotype</p>
+                        <h2>MV/VM monogram</h2>
+                    </div>
+                </div>
+                <div class="myWork__item">
+                    <div class="myWork__item-img"><a href="img/logos/4.png" target="_blank"><img src="img/logos/4.png"
+                                alt="img" class="img"></a></div>
+                    <div class="myWork__item-descr">
+                        <p>logotype</p>
+                        <h2>S/Arrows</h2>
+                    </div>
+                </div>
+                <div class="myWork__item">
+                    <div class="myWork__item-img"><a href="img/logos/5.png" target="_blank"><img src="img/logos/5.png"
+                                alt="img" class="img"></a></div>
+                    <div class="myWork__item-descr">
+                        <p>logotype</p>
+                        <h2>S/Arrows</h2>
+                    </div>
+                </div>
+                <div class="myWork__item">
+                    <div class="myWork__item-img"><a href="img/logos/6.png" target="_blank"><img class="img"
+                                src="img/logos/6.png" alt="img"></a></div>
+                    <div class="myWork__item-descr">
+                        <p>logotype</p>
+                        <h2>R+House logomark</h2>
+                    </div>
+                </div>
+                <div class="myWork__item">
+                    <div class="myWork__item-img"><a href="img/logos/7.png" target="_blank"><img src="img/logos/7.png"
+                                alt="img" class="img"></a></div>
+                    <div class="myWork__item-descr">
+                        <p>logotype</p>
+                        <h2>C for Chat</h2>
+                    </div>
+                </div>
+                <div class="myWork__item">
+                    <div class="myWork__item-img"><a href="img/logos/8.png" target="_blank"><img src="img/logos/8.png"
+                                alt="img" class="img"></a></div>
+                    <div class="myWork__item-descr">
+                        <p>logotype</p>
+                        <h2>OC monogram</h2>
+                    </div>
+                </div>
+                <div class="myWork__item">
+                    <div class="myWork__item-img"><a href="img/logos/9.png" target="_blank"><img src="img/logos/9.png"
+                                alt="img" class="img"></a></div>
+                    <div class="myWork__item-descr">
+                        <p>logotype</p>
+                        <h2>N/Wrench</h2>
+                    </div>
+                </div>
+            </div>
+
+            <button class="addWork__btn">+</button>
+
+
+        </section>
+
+        <div class="addWork__form hide">
+            <div class="addWork__wrapper">
+                <div class="addWork__input">
+                    <form id="addForm" method="post" enctype="multipart/form-data">
+                        <h2>Добавить дизайн</h2>
+                        Введите название дизайна
+                        <input type="text" class="addWork__name" id="name" name="name">
+                        <select class="addWork__category" name="select">
+                            <option>Выбери категорию</option>
+                            <option>Logotype</option>
+                            <option>Lorem</option>
+                            <option>Imosum</option>
+                        </select>
+                        <input type="file" class="addWork__img" name="img">
+                        <button type="submit" class="addWork__input-btn button">Загрузить дизайн</button>
+                    </form>
+                    <div class="addWork__input-close">&times</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__social">
+                    <div class="footer__social-date">&copy 2019</div>
+                    <div class="footer__social-links">
+                        <a href="https://dribbble.com/rgeliskhanov">
+                            <img src="img/icons/footerIcons/dribble.svg" alt="dribble">
+                        </a>
+                        <a href="https://www.pinterest.ru/printerium/">
+                            <img src="img/icons/footerIcons/pinterest-p-brands.svg" alt="pinterest">
+                        </a>
+                        <a href="https://society6.com/goosh">
+                            <img src="img/icons/footerIcons/society6.svg" alt="society6">
+                        </a>
+                        <a href="https://www.instagram.com/ruge06/?igshid=cz27i5q9qqke">
+                            <img src="img/icons/footerIcons/instagram-brands.svg" alt="instagram">
+                        </a>
+                        <a href="https://vk.com/rgeliskhanov">
+                            <img src="img/icons/footerIcons/vk-brands.svg" alt="vk">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__nav">
+                    <ul>
+                        <li><a href="index.html">Main</a></li>
+                        <li><a href="MyWorks.html">Work</a></li>
+                        <li><a href="index.html#aboutMe">About me</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <button class="footer__nav-btn button">HIRE ME</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
